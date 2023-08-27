@@ -36,10 +36,10 @@ Locate the files that make up the content of the ebook. These can be in a differ
 
 In the example they are in /epub/text.
 
-Other examples where they might be:
-    - directly in the main folder 
-    - /OEBPS/Text
-    - directly in /OEBPS/
+Other examples where they might be: 
+* directly in the main folder
+* /OEBPS/Text
+* directly in /OEBPS/
 
 You can tell you found the correct files by opening them (for example in your browser, as they are x/html files) and seeing the text of your ebook. They are most likely numbered, and each file corresponds to a chapter of the book.
 
