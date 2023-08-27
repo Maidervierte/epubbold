@@ -53,7 +53,9 @@ Examples:
 
 ## Step 7
 
-Replace the files with the ones from the corresponding output folder. Be careful to only replace files containing the text of the book, as the script may 
+Replace the files with the ones from the corresponding output folder.
+
+It may make a mess out of pages with formatting that doesn't fit into how the script reads the files. Since the original isn't altered this isn't critical, worst case scenario should be that you may have to check the messed up pages in the original.
 
 ## Step 8 (optional)
 
