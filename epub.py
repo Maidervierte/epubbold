@@ -49,3 +49,5 @@ for file in epub_list:
                 os.makedirs(new_dir)
             with open(new_dir+"/"+item.get_name().split("/")[-1], "w+", encoding='utf-8') as file:
                 file.write(str(soup))
+                
+print("Finished!")
