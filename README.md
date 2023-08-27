@@ -8,7 +8,7 @@ Editing .epubs so they look like this:
 
 ## Step 1
 
-[Download the most recent release.](https://github.com/Maidervierte/epubbold/releases)https://github.com/Maidervierte/epubbold/releases
+[Download the most recent release.](https://github.com/Maidervierte/epubbold/releases)
 
 ## Step 2
 
