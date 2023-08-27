@@ -19,10 +19,11 @@ def modify_word(word):
     return new_word
 
 def bold_text(node):
+    accentedCharacters = "àèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ"
     new_node=""
-    matches=re.split(r"([a-zA-ZäüöÄÜÖß-]+’?[a-zA-ZäüöÄÜÖß-]+|[a-zA-ZäüöÄÜÖ-])",node)
+    matches=re.split(r"([a-zA-Z"+accentedCharacters+"-]+’?[a-zA-Z"+accentedCharacters+"-]+|[a-zA-Z"+accentedCharacters+"-])",node)
     for match in matches:
-        if re.match(r"([a-zA-ZäüöÄÜÖß-]+’?[a-zA-ZäüöÄÜÖß-]+|[a-zA-ZäüöÄÜÖ-])",match):
+        if re.match(r"([a-zA-Z"+accentedCharacters+"-]+’?[a-zA-Z"+accentedCharacters+"-]+|[a-zA-Z"+accentedCharacters+"-])",match):
             new_node+=modify_word(match)
         else:
             new_node+=match
@@ -31,10 +32,11 @@ def bold_text(node):
     # print(new_node)
     return new_node
 
+print("working...")
 for file in epub_list:
     print(str(file))
     new_dir="./output/"+file.split(".epub")[0]
-    book = epub.read_epub("./input/"+file)
+    book = epub.read_epub("./input/"+file,{"ignore_ncx": True})
     for item in book.get_items():
         if item.get_type() == ebooklib.ITEM_DOCUMENT:
             content=item.get_content()
