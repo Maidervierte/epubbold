@@ -11,8 +11,9 @@ for file in os.listdir("./input"):
         epub_list.append(file)
 
 def modify_word(word):
-    new_word=""
-    if len(word)<7:
+    if len(word)==1:
+            new_word="<b>"+word+"</b>"
+    elif len(word)<7:
         new_word="<b>"+word[:len(word)//2]+"</b>"+word[len(word)//2:]
     else:
         new_word="<b>"+word[:len(word)//2+1]+"</b>"+word[len(word)//2+1:]
