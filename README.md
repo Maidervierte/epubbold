@@ -67,7 +67,7 @@ Edit the content.opf with a text editor of your choice and change the title. In 
 
 Import it to your ebook management program (for example [calibre](https://calibre-ebook.com/)) or put it onto your ereader and check if everything worked.
 
-![2023-08-27 20_29_40-War and Peace  EPUB  — E-book viewer](https://github.com/Maidervierte/epubbold/assets/68083029/0983cb2c-14e2-4ca1-a9ca-8c72c66cbddf)
+![2023-08-27 20_51_02-calibre — __ calibre __](https://github.com/Maidervierte/epubbold/assets/68083029/012ca57d-fabc-488e-adbb-d144a5a0a47e)
 
 # Known Bugs
 
