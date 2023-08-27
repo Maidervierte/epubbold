@@ -18,7 +18,7 @@ Extract the downloaded files anywhere, for example using [7zip](https://www.7-zi
 
 ## Step 3
 
-Put the .epub file you want to edit into the input folder (you may remove the example file)
+Copy the .epub file you want to edit into the input folder (you may remove the example file)
 
 ## Step 4
 
@@ -64,6 +64,14 @@ Edit the content.opf with a text editor of your choice and change the title. In 
 ## Step 9
 
 Import it to your ebook management program (for example [calibre](https://calibre-ebook.com/)) or put it onto your ereader and check if everything worked.
+
+![2023-08-27 20_29_40-War and Peace  EPUB  — E-book viewer](https://github.com/Maidervierte/epubbold/assets/68083029/0983cb2c-14e2-4ca1-a9ca-8c72c66cbddf)
+
+# Known Bugs
+
+It may make a mess out of pages with formatting that doesn't fit into how the script reads the files. Since the original isn't altered but instead a new copy created this isn't critical and should just be considered and checked during step 7.
+
+There may be some hijinks going on with special characters and accents which may cause words to be bolded incorrectly.
 
 
 
