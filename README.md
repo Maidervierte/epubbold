@@ -26,7 +26,7 @@ Run the epubbold.exe (Wait for the cmd window to close).
 
 ## Step 5
 
-Import the files in the output folder to your ebook management program (for example [calibre](https://calibre-ebook.com/)) or put it onto your ereader and check if everything worked.
+Import the files from the output folder to your ebook management program (for example [calibre](https://calibre-ebook.com/)) or put them onto your ereader and check if everything worked.
 
 ![2023-08-28 02_50_27-War and Peace (b)  EPUB  — E-book viewer](https://github.com/Maidervierte/epubbold/assets/68083029/2e128da5-79d4-4cc4-a633-1978d4e678f8)
 
