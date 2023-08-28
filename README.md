@@ -26,52 +26,13 @@ Run the epubbold.exe (Wait for the cmd window to close).
 
 ## Step 5
 
-Open the .epub file in the input folder as an archive, for example using [7zip.](https://www.7-zip.org/).
+Import the files in the output folder to your ebook management program (for example [calibre](https://calibre-ebook.com/)) or put it onto your ereader and check if everything worked.
 
-![2023-08-27 19_53_06-input](https://github.com/Maidervierte/epubbold/assets/68083029/b99d5ee6-cbb5-4e58-97bb-bb0e03edf2d2)
-
-## Step 6
-
-Locate the files that make up the content of the ebook. These can be in a different locations depending on the .epub.
-
-In the example they are in /epub/text.
-
-Other examples where they might be: 
-* directly in the main folder
-* /OEBPS/Text
-* directly in /OEBPS/
-
-You can tell you found the correct files by opening them (for example in your browser, as they are x/html files) and seeing the text of your ebook. They are most likely numbered, and each file corresponds to a chapter of the book.
-
-Examples:
-
-![2023-08-27 20_08_18-M__Drive_Python_epub_Epub_input_Hexer_ Das Schwert der Vorsehun - Sapkowski, And](https://github.com/Maidervierte/epubbold/assets/68083029/577d3ae7-3f47-4074-a056-f7211badad45)
-![2023-08-27 20_08_04-M__Drive_Python_epub_Epub_input_Metro 2034 - Dmitry Glukhovsky epub_OEBPS_Text_](https://github.com/Maidervierte/epubbold/assets/68083029/6d3a5a19-fc4a-436b-882f-19281f29746b)
-![2023-08-27 20_07_51-7-Zip](https://github.com/Maidervierte/epubbold/assets/68083029/b69a4f71-81ba-44fd-a250-1b20207cac0b)
-![2023-08-27 20_02_49-M__Drive_Python_epub_Epub_input_Hexer_ Das Schwert der Vorsehun - Sapkowski, And](https://github.com/Maidervierte/epubbold/assets/68083029/b71287dd-6026-4c17-a61e-6e31c76eef70)
-
-
-## Step 7
-
-Replace the files with the ones from the corresponding output folder.
-
-It may make a mess out of pages with formatting that doesn't fit into how the script reads the files. Since the original isn't altered this isn't critical, worst case scenario should be that you may have to check the messed up pages in the original.
-
-## Step 8 (optional)
-
-Edit the content.opf with a text editor of your choice and change the title. In the example the title can be found on line 29.
-
-![2023-08-27 20_00_46-_content opf - Editor](https://github.com/Maidervierte/epubbold/assets/68083029/8ddcfa26-066f-44e5-8961-fb0ee0139dd6)
-
-## Step 9
-
-Import it to your ebook management program (for example [calibre](https://calibre-ebook.com/)) or put it onto your ereader and check if everything worked.
-
-![2023-08-27 21_03_00-War and Peace BOLD  EPUB  — E-book viewer](https://github.com/Maidervierte/epubbold/assets/68083029/9ad268cd-f03b-40b0-ac7b-c0e8051e016c)
+![2023-08-28 02_50_27-War and Peace (b)  EPUB  — E-book viewer](https://github.com/Maidervierte/epubbold/assets/68083029/2e128da5-79d4-4cc4-a633-1978d4e678f8)
 
 # Known Bugs
 
-It may make a mess out of pages with formatting that doesn't fit into how the script reads the files. Since the original isn't altered but instead a new copy created this isn't critical and should just be considered and checked during step 7.
+It may make a mess out of pages with formatting that doesn't fit into how the script reads the files or css styles interfering with the bold property.
 
 There may be some hijinks going on with special characters and accents which may cause words to be bolded incorrectly.
 
