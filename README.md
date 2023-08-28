@@ -18,7 +18,7 @@ Extract the downloaded files anywhere, for example using [7zip](https://www.7-zi
 
 ## Step 3
 
-Copy the .epub file you want to edit into the input folder (you may remove the example file)
+Copy the .epub files you want edited into the input folder (you may remove the example file)
 
 ## Step 4
 
