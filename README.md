@@ -36,6 +36,8 @@ It may make a mess out of pages with formatting that doesn't fit into how the sc
 
 There may be some hijinks going on with special characters and accents which may cause words to be bolded incorrectly.
 
+If you get a permission error you can try emptying the output folder before running it again.
+
 
 
 
