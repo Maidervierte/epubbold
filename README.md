@@ -32,7 +32,7 @@ Import the files from the output folder to your ebook management program (for ex
 
 # Known Bugs
 
-It may make a mess out of pages with formatting that doesn't fit into how the script reads the files or css styles interfering with the bold property.
+It may make a mess out of pages with formatting that doesn't fit into how the script reads the files or if they do something fancy with their css.
 
 There may be some hijinks going on with special characters and accents which may cause words to be bolded incorrectly.
 
