@@ -22,7 +22,7 @@ Copy the .epub files you want edited into the input folder
 
 ## Step 4
 
-Run the epubbold.exe (Wait for the cmd window to close).
+Run the epubbold.exe (wait until it says "Finished!")
 
 ## Step 5
 
